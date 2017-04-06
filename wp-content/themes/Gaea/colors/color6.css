@@ -1,0 +1,112 @@
+.text-primary, .btn-primary .badge, .btn-link,a.list-group-item.active > .badge,.nav-pills > .active > a > .badge, p.drop-caps:first-child:first-letter, .accent-color, .main-navigation > ul > li > a:hover, .posts-listing .post-time, h3.title .title-border i, .upcoming-events .event-cats a:hover, .nav-np .next:hover, .nav-np .prev:hover, .basic-link, .pagination > li > a:hover,.pagination > li > span:hover,.pagination > li > a:focus,.pagination > li > span:focus, .staff-item .meta-data, .woocommerce div.product span.price, .woocommerce div.product p.price, .woocommerce #content div.product span.price, .woocommerce #content div.product p.price, .woocommerce-page div.product span.price, .woocommerce-page div.product p.price, .woocommerce-page #content div.product span.price, .woocommerce-page #content div.product p.price, .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price, .event-ticket h4, .event-ticket .ticket-ico{
+	color:#d770ad;
+}
+a:hover{
+	color:#d770ad;
+}
+.basic-link:hover{
+	opacity:.9
+}
+p.demo_store, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt, .woocommerce span.onsale, .woocommerce-page span.onsale, .wpcf7-form .wpcf7-submit, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a{ background: #d770ad; }
+p.drop-caps.secondary:first-child:first-letter, .accent-bg, .fa.accent-color, .btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.label-primary,
+.progress-bar-primary,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus, .accordion-heading .accordion-toggle.active, .accordion-heading:hover .accordion-toggle.active, .accordion-heading:hover .accordion-toggle.inactive,
+.panel-primary > .panel-heading, .carousel-indicators .active, .flex-control-nav a:hover, .flex-control-nav a.flex-active, .media-box .media-box-wrapper, .top-menu li a, .upcoming-events .event-date, .media-box .zoom, .media-box .expand, .project-overlay .project-cat, .flexslider .flex-prev:hover, .flexslider .flex-next:hover, .events-listing .upcoming-events li:hover .event-details-btn:hover, .single-event-info .icon-s, .event-register-block:hover, .fc-event, .projects-grid .project-cat, .tagcloud a:hover, .main-navigation > ul > li ul{
+  background-color: #d770ad;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary, .top-menu li a:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce a.button.alt:active, .woocommerce button.button.alt:active, .woocommerce input.button.alt:active, .woocommerce #respond input#submit.alt:active, .woocommerce #content input.button.alt:active, .woocommerce-page a.button.alt:active, .woocommerce-page button.button.alt:active, .woocommerce-page input.button.alt:active, .woocommerce-page #respond input#submit.alt:active, .woocommerce-page #content input.button.alt:active, .wpcf7-form .wpcf7-submit{
+  background: #d770ad;
+  opacity:.9
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus,
+.panel-primary,
+.panel-primary > .panel-heading, .event-ticket-left .ticket-handle{
+	border-color:#d770ad;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body, .main-navigation > ul > li ul, #featured-events ul.slides, .main{
+	border-top-color:#d770ad;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body, .nav-tabs li a:active, .nav-tabs li.active a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .title .title-border, .hero-slider, .page-header{
+	border-bottom-color:#d770ad;
+}
+blockquote{
+	border-left-color:#d770ad;
+}
+.main-navigation > ul > li ul:before, .main-navigation > ul > li.megamenu > ul:before{
+	border-bottom-color:#d770ad;
+}
+.main-navigation > ul > li ul li ul:before{
+	border-right-color:#d770ad;
+}
+.share-buttons.share-buttons-tc > li > a{
+  background: #d770ad!important;
+}
+/* SECONDARY COLOR */
+.secondary-color, .top-header .social-links a:hover, h3.block-title{
+	color:#ec87c0;
+}
+.secondary-color-bg, .top-menu li.secondary a, .featured-projects, hr.sm, .flexslider .flex-prev, .flexslider .flex-next, .events-listing .upcoming-events li:hover .event-details-btn, .single-event-info .time, .event-single-venue > span:first-child, .tagcloud a, .staff-volunteers, .accordion-heading:hover .accordion-toggle, .widget_twitter_feeds li span.date, .woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info:before, .woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-message:before, .ticket-cost{
+	background-color:#ec87c0;
+}
+.page-header{
+	background-color:#ec87c0;
+}
+.top-menu li.secondary a:hover, .secondary-color-bg:hover{
+	background-color:#ec87c0;
+	opacity:.9;
+}
+.event-register-block{
+	border-color:#ec87c0;
+}
+.woocommerce .woocommerce-info, .woocommerce-page .woocommerce-info, .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message{
+	border-top-color: #ec87c0;
+}
+/* Color Scheme Specific Classes */

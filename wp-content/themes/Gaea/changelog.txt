@@ -1,0 +1,71 @@
+*** Gaea Changelog ***
+07 November 2014- Version 1.0
+	Initial Release
+16 November 2014- Version 1.1
+	NEW! Event Registration Option added
+	FIXED! some styling bugs
+16 November 2014- Version 1.2
+	NEW! Orderby field added for staff shortcode
+	UPDATED! calendar updated.
+	NEW! Option to choose post type for homepage left column
+	FIXED! Events not showing which is not recurring
+	UPDATED! new shortcode editor given for after recent post section
+	FIXED! When tabs from homepage is removed container was broken
+09 December 2014- Version 1.3
+	NEW! Event date will show by default if no featured image set
+	NEW! Option to disable upcoming event counter at header and option to put any 	
+	custom text in there
+	FIXED! Seamless donation form style issue fixed
+	FIXED! Envato toolkit plugin clashing with theme options
+	FIXED! Bug on template home.php
+	NEW! Option to set links for partner logos
+	FIXED! Event countdown not working fixed
+	FIXED! Widget bottom margin for custom widgets
+	FIXED! style issue with the calendar
+	NEW! Option to choose category of post on all type of blog templates
+	FIXED! Passed Event not working properly
+	FIXED! issue with content on page templates like events, projects, gallery
+08 January 2015 - Version 1.4
+	NEW! Gallery feature extended with post format capabilities
+	NEW! Option in events template to list future and past events
+	NEW! Calendar now allow category filters and event preview options
+	FIXED! Registration modal box not opening after login/register
+	NEW! Gallery shortcode
+	UPDATED! jQuery Calendar plugin updated to latest version
+	NEW! Banner/slider option for project
+	NEW! Icon box shortcake now allow links addition
+	NEW! Event registration as a guest
+	FIXED! Menu hiding on window resize
+	FIXED! Page title hidden on one page menu scroll
+	NEW! Option to change Latest Project and Clients list title on Homepage
+	FIXED! Some small styling bugs
+03 February 2015 - Version 1.5
+	UPDATE! Sidebar on single page menu page is now visible
+	NEW! Social share options for all post types
+	NEW! 2 New Header Styles
+	NEW! Latest Gallery widget with option to choose category of gallery items
+	FIXED! Team widget in footer causing layout broken issue
+	FIXED! Some styling bugs
+	NEW! Video embedding shortcode
+	NEW! Option to upload Retina Logo
+	UPDATE! Some page load enhancements
+07 February 2015 - Version 1.5.1
+	FIXED! Background image issue in boxed version
+	FIXED! Style issue in boxed version header style 3
+20 February 2015 - Version 1.6
+	NEW! One click demo install
+	NEW! RTL language support added
+	NEW! Fonts typography and styling options added at Theme Options
+	UPDATED! Font Awesome icons
+	UPDATED! Recommended plugins class which will now allow to update revolution slider and paid events plugin with in the wp dashboard
+	UPDATED! Revolution Slider to v4.6.5
+	FIXED! Mobile menu problem from init.js
+	FIXED! Inside pages banner image, banner color not taking custom height
+	FIXED! Icon lists were coming with default bullets
+	Partner Logos on homepage can be of custom dimension now
+	FIXED! Shop and search widget in header wrong position while open
+	FIXED! Issue with single project template
+	FIXED! Homepage projects column meta field was not working
+27 February 2015 - Version 1.6.1
+	FIXED! Bug with homepage recent projects column
+	FIXED! Calendar not working when topper events countdown is disabled
