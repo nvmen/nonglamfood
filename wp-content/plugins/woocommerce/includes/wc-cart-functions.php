@@ -105,7 +105,7 @@ function wc_add_to_cart_message( $products, $show_qty = false, $return = false )
 	}
 
 	$titles     = array_filter( $titles );
-	$added_text = sprintf( _n( '%s has been added to your cart.', '%s have been added to your cart.', $count, 'woocommerce' ), wc_format_list_of_items( $titles ) );
+	$added_text = sprintf( _n( '%s đã được thêm vào giỏ hàng của bạn.', '%s have been added to your cart.', $count, 'woocommerce' ), wc_format_list_of_items( $titles ) );
 
 	// Output success messages
 	if ( 'yes' === get_option( 'woocommerce_cart_redirect_after_add' ) ) {

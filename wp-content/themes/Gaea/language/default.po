@@ -4658,7 +4658,7 @@ msgid "Reviews"
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:37
-msgid "There are no reviews yet."
+msgid "Không có nhận xét."
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:46
@@ -4675,7 +4675,7 @@ msgid "Leave a Reply to %s"
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:61
-msgid "Your Rating"
+msgid "Đánh giá"
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:62

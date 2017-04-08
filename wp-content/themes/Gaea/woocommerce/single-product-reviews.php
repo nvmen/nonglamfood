@@ -16,7 +16,7 @@ if ( ! comments_open() )
 	<div id="comments">
 		<h2><?php
 			if ( get_option( 'woocommerce_enable_review_rating' ) === 'yes' && ( $count = $product->get_rating_count() ) )
-				printf( _n( '%s review for %s', '%s reviews for %s', $count, 'woocommerce' ), $count, get_the_title() );
+				printf( _n( '%s nhận xét cho %s', '%s nhận xét cho %s', $count, 'woocommerce' ), $count, get_the_title() );
 			else
 				_e( 'Reviews', 'woocommerce' );
 		?></h2>
@@ -34,7 +34,7 @@ if ( ! comments_open() )
 				echo '</nav>';
 			endif; ?>
 		<?php else : ?>
-			<p class="woocommerce-noreviews"><?php _e( 'There are no reviews yet.', 'woocommerce' ); ?></p>
+			<p class="woocommerce-noreviews"><?php _e( 'Không có nhận xét.', 'woocommerce' ); ?></p>
 		<?php endif; ?>
 	</div>
 	<?php if ( get_option( 'woocommerce_review_rating_verification_required' ) === 'no' || wc_customer_bought_product( '', get_current_user_id(), $product->id ) ) : ?>
@@ -43,7 +43,7 @@ if ( ! comments_open() )
 				<?php
 					$commenter = wp_get_current_commenter();
 					$comment_form = array(
-						'title_reply'          => have_comments() ? __( 'Add a review', 'woocommerce' ) : __( 'Be the first to review', 'woocommerce' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
+						'title_reply'          => have_comments() ? __( 'Add a review', 'woocommerce' ) : __( 'Hãy là người đầu tiên nhận xét', 'woocommerce' ) . ' &ldquo;' . get_the_title() . '&rdquo;',
 						'title_reply_to'       => __( 'Leave a Reply to %s', 'woocommerce' ),
 						'comment_notes_before' => '',
 						'comment_notes_after'  => '',
@@ -58,7 +58,7 @@ if ( ! comments_open() )
 						'comment_field' => ''
 					);
 					if ( get_option( 'woocommerce_enable_review_rating' ) === 'yes' ) {
-						$comment_form['comment_field'] = '<p class="comment-form-rating"><label for="rating">' . __( 'Your Rating', 'woocommerce' ) .'</label><select name="rating" id="rating">
+						$comment_form['comment_field'] = '<p class="comment-form-rating"><label for="rating">' . __( 'Đánh giá', 'woocommerce' ) .'</label><select name="rating" id="rating">
 							<option value="">' . __( 'Rate&hellip;', 'woocommerce' ) . '</option>
 							<option value="5">' . __( 'Perfect', 'woocommerce' ) . '</option>
 							<option value="4">' . __( 'Good', 'woocommerce' ) . '</option>
