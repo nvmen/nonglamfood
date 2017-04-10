@@ -2171,7 +2171,7 @@ h1.logo{
 	margin:0;
 }
 .lead-block{
-	background:url(images/wave-high.png) repeat-x #fafafa;
+	/*background:url(images/wave-high.png) repeat-x #fafafa;*/
 	border-bottom:#e8e8e8 1px solid;
 	padding:50px 0;
 }

@@ -46,7 +46,7 @@ $event_image = $imic_options['header_image']['url'];
                                     </div>
                                     <div class="col-md-7">
                                         <h3 class="post-title"><a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>"><?php the_title(); ?></a></h3>
-                                    <span class="post-time meta-data"><?php _e('Posted on ','framework'); echo esc_html(get_the_date()); ?></span>
+                                    <span class="post-time meta-data"><?php _e('Đăng ngày ','framework'); echo esc_html(get_the_date()); ?></span>
                                         <p class="post-excerpt"><?php the_excerpt(); ?></p>
                                         <a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>" class="btn btn-sm btn-default"><?php _e('Continue reading ','framework'); ?><i class="fa fa-long-arrow-right"></i></a>
                                     </div>

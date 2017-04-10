@@ -51,7 +51,7 @@ if(is_archive()||is_tag()) {
                                     </div><?php } ?>
                                     <div class="col-md-<?php echo $post_class; ?>">
                                         <h3 class="post-title"><a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>"><?php the_title(); ?></a></h3>
-                                    <span class="post-time meta-data"><?php _e('Posted on ','framework'); echo esc_html(get_the_date()); ?></span>
+                                    <span class="post-time meta-data"><?php _e('Đăng ngày ','framework'); echo esc_html(get_the_date()); ?></span>
                                         <p class="post-excerpt"><?php the_excerpt(); ?></p>
                                         <?php wp_link_pages( array(
 														'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfourteen' ) . '</span>',

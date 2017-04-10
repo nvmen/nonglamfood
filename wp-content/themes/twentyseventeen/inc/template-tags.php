@@ -48,7 +48,7 @@ function twentyseventeen_time_link() {
 	// Wrap the time string in a link, and preface it with 'Posted on'.
 	return sprintf(
 		/* translators: %s: post date */
-		__( '<span class="screen-reader-text">Posted on</span> %s', 'twentyseventeen' ),
+		__( '<span class="screen-reader-text">Đăng ngày</span> %s', 'twentyseventeen' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 }

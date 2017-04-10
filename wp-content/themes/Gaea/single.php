@@ -35,12 +35,12 @@ $class = 12;
                               if(!empty($job_title)){
                                 echo '<span>'.__(' Designation : ','framework').$job_title.'</span>';
                             }}else{ ?>
-                                <span><i class="fa fa-calendar"></i><?php _e(' Posted on ','framework'); echo esc_html(get_the_date()); ?></span>
-                                <span><i class="fa fa-archive"></i><?php _e(' Categories: ','framework'); ?><?php the_category(', '); ?></span>
-                                <span><i class="fa fa-comments"></i> <?php comments_popup_link(''.__('No comments yet','framework'), '1', '%', 'comments-link',__('Comments are off for this post','framework')); ?></span>
+                                <span><i class="fa fa-calendar"></i><?php _e(' Đăng ngày: ','framework'); echo esc_html(get_the_date()); ?></span>
+                                <span><i class="fa fa-archive"></i><?php _e(' Danh mục: ','framework'); ?><?php the_category(', '); ?></span>
+                                <span><i class="fa fa-comments hidden"></i> <div class="hidden"><?php comments_popup_link(''.__('No comments yet','framework'), '1', '%', 'comments-link',__('Comments are off for this post','framework')); ?></div></span>
                               <?php } ?>
                             </div>
-                            <?php if ( '' != get_the_post_thumbnail() ) { the_post_thumbnail('1000x400',array('class'=>'img-thumbnail post-single-image')); }
+                            <?php if ( '' != get_the_post_thumbnail() ) { /*the_post_thumbnail('1000x400',array('class'=>'img-thumbnail post-single-image'));*/ }
 								$categories = get_the_category(get_the_ID()); 
 								$current_post = get_the_ID(); ?>
                             <article class="post-content"> 
@@ -63,14 +63,14 @@ $class = 12;
                             ?>
                             <!-- Related Posts -->
                             <div class="related-posts">
-                                <h4 class="title"><?php _e('You might also like','framework'); ?></h4>
+                                <h4 class="title"><?php _e('Bài viết liên quan','framework'); ?></h4>
                                 <div class="row">
                                 <?php query_posts(array('post_type'=>'post','posts_per_page'=>3,'category_name'=>$categories[0]->slug,'post__not_in' => array($current_post)));
 											if(have_posts()):while(have_posts()):the_post(); ?>
                                     <div class="col-md-4 related-post format-standard">
                                         <a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>" class="media-box"><?php if ( '' != get_the_post_thumbnail() ) { the_post_thumbnail('600x400',array('class'=>'img-thumbnail post-thumb')); } ?></a>
                                         <h3 class="post-title"><a href="<?php echo esc_url(get_permalink(get_the_ID())); ?>"><?php the_title(); ?></a></h3>
-                                        <span class="post-time meta-data"><?php _e('Posted on ','framework'); echo esc_html(get_the_date()); ?></span>
+                                        <span class="post-time meta-data hidden"><?php _e('Đăng ngày ','framework'); echo esc_html(get_the_date()); ?></span>
                                     </div>
                                     <?php endwhile; endif; wp_reset_query(); ?>
                                 </div>
