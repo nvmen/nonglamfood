@@ -2402,7 +2402,7 @@ h1.logo{
 	color:#fff;
 }
 .site-top-footer{
-	background-image:url(images/wave-high.png);
+	/*background-image:url(images/wave-high.png);*/
 	background-repeat: repeat-x;
 	background-color:#2f2f2f;
 	padding:40px 0;
@@ -3786,4 +3786,28 @@ color :transparent !important;
 .title-item{
     color: #008052 ;
 }
+.title-intro{
+	border-bottom:#00b351 1px solid;
+}
+.title-item  >.title-intro{
+	border-bottom:#00b351 1px solid;
+}
+.title-intro .title-border{
+    padding-bottom: 9px;
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: -1px;
+    border-bottom-color: #0baf74;
+}
+.post-grid .grid-items {
+  
+     text-align: left !important;
+}
+.layer-content > .title{
+	border-bottom-color: transparent;
 
+}
+.grid-items  .item{
+	border: 1px solid #ddd;
+}
