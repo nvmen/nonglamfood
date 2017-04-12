@@ -485,7 +485,7 @@ label {
 	margin-bottom:20px;
 }
 .title{
-	border-bottom:#e8e8e8 1px solid;
+	border-bottom:#00b351 1px solid;
 }
 .titleb{
 	font-size:14px;
@@ -494,11 +494,12 @@ label {
 	font-family: 'Roboto', sans-serif;
 }
 .title .title-border{
-	padding-bottom:9px;
-	display:inline-block;
-	border-bottom-width:1px;
-	border-bottom-style:solid;
-	margin-bottom:-1px;
+    padding-bottom: 9px;
+    display: inline-block;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: -1px;
+    border-bottom-color: #0baf74;
 }
 .label{
 	font-family: 'Roboto', sans-serif!important;
@@ -2465,7 +2466,7 @@ h1.logo{
 }
 .secondary-bar{
 	padding:20px 0;
-	background:url(images/wave-high.png) repeat-x #fafafa;
+	/*background:url(images/wave-high.png) repeat-x #fafafa;*/
 	border-bottom:#e8e8e8 1px solid;
 }
 .secondary-bar .flexslider .flex-prev, .secondary-bar .flexslider .flex-next{
@@ -3761,3 +3762,28 @@ only screen and (                min-resolution: 2dppx) {
 		display:inline-block;
 	}
 }
+.current_page_item  > a{
+ color :#00b351 !important;
+}
+.page-header  > .container h2{
+color :transparent !important;
+}
+.title-about{
+    padding-bottom: 30px;
+
+}
+.title-about h2 {
+  
+    /*background:url(images/gioithieu.png) repeat; no-repeat;*/
+    height: 90px;
+    width: 444px !important;
+    line-height: 100px;
+    color: #00b351 ;
+}
+.item-contact{
+ font-weight:bold;
+}
+.title-item{
+    color: #008052 ;
+}
+

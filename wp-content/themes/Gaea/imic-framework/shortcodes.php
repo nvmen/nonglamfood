@@ -1002,18 +1002,18 @@ $formCode = $contact_title.'<form action="'.get_template_directory_uri().'/mail/
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" id="name" name="name"  class="form-control input-lg" placeholder="'.__('Name','framework').' *">
+<input type="text" id="name" name="name"  class="form-control input-lg" placeholder="'.__('Họ tên','framework').' *">
 </div>
 <div class="form-group">
 <input type="email" id="email" name="email"  class="form-control input-lg" placeholder="'.__('Email','framework').' *">
 </div>
 <div class="form-group">
-<input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="'.__('Phone','framework').'">
+<input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="'.__('Số điện thoại','framework').'">
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-    <textarea cols="6" rows="7" id="comments" name="comments" class="form-control input-lg" placeholder="'.__('Message','framework').'"></textarea>
+    <textarea cols="6" rows="7" id="comments" name="comments" class="form-control input-lg" placeholder="'.__('Tin nhắn','framework').'"></textarea>
 </div>
 </div>
 </div>
@@ -1023,7 +1023,7 @@ $formCode = $contact_title.'<form action="'.get_template_directory_uri().'/mail/
 <input type="hidden" id="phone" name="phone" class="form-control input-lg" placeholder="">
 <input id="admin_email" name="admin_email" type="hidden" value ="'.$admin_email.'">
 <input id="subject" name="subject" type="hidden" value ="'.$subject_email.'">
-<input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="'.__('Submit','framework').'">
+<input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="'.__('Gửi','framework').'">
 </div>
 </div>
 </form><div id="message"></div>';

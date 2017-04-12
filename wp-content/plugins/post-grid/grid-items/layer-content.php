@@ -86,7 +86,7 @@ if ( ! defined('ABSPATH')) exit;  // if direct access
 					
 				
 				
-				$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Read more.', post_grid_textdomain));
+				$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Xem thêm.', post_grid_textdomain));
 				
 				
 				}
@@ -149,7 +149,7 @@ if ( ! defined('ABSPATH')) exit;  // if direct access
 		elseif($item_key=='excerpt_read_more'){
 			$html_content.='<div class="element element_'.$item_id.' '.$item_key.'"  >';
 			
-			$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Read more.', post_grid_textdomain));
+			$read_more_text = apply_filters('post_grid_filter_grid_item_read_more', __('Xem thêm.', post_grid_textdomain));
 			
 			$html_content.= wp_trim_words(strip_shortcodes(get_the_excerpt()), $char_limit,'').' <a target="'.$link_target.'" class="read-more" href="'.get_permalink().'">'.$read_more_text.'</a>';
 			$html_content.='</div>';

@@ -216,11 +216,11 @@ msgid "Tag Archives: "
 msgstr ""
 
 #: index.php:31
-msgid "Archives: "
+msgid "Danh mục: "
 msgstr ""
 
 #: index.php:57
-msgid "Pages:"
+msgid "Trang:"
 msgstr ""
 
 #: index.php:70

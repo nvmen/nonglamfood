@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-1: grid-items\n"
 
 #: grid-items/layer-content.php:119 grid-items/layer-content.php:132
-msgid "Read more."
+msgid "Xem thêm."
 msgstr ""
 
 #: grid-items/layer-content.php:162

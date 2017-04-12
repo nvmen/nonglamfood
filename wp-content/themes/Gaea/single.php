@@ -36,7 +36,7 @@ $class = 12;
                                 echo '<span>'.__(' Designation : ','framework').$job_title.'</span>';
                             }}else{ ?>
                                 <span><i class="fa fa-calendar"></i><?php _e(' Đăng ngày: ','framework'); echo esc_html(get_the_date()); ?></span>
-                                <span><i class="fa fa-archive"></i><?php _e(' Danh mục: ','framework'); ?><?php the_category(', '); ?></span>
+                                <span class ="hidden"><i class="fa fa-archive"></i><?php _e(' Danh mục: ','framework'); ?><?php the_category(', '); ?></span>
                                 <span><i class="fa fa-comments hidden"></i> <div class="hidden"><?php comments_popup_link(''.__('No comments yet','framework'), '1', '%', 'comments-link',__('Comments are off for this post','framework')); ?></div></span>
                               <?php } ?>
                             </div>
