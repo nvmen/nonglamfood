@@ -8,6 +8,7 @@
 get_header();
 if(is_home()) { $id = get_option('page_for_posts'); }
 else { $id = get_the_ID(); }
+
 $page_header = get_post_meta($id,'imic_pages_Choose_slider_display',true);
 if($page_header==3) {
 	get_template_part( 'pages', 'flex' );
@@ -31,7 +32,7 @@ $class = 12;
 <div class="main" role="main">
 <div id="content" class="content full">
 <div class="container">
-    <div class="row">
+    <div class="row">	
         <div class="col-md-<?php echo $class; ?>"> 
            <?php
                 while ( have_posts() ) : the_post(); 

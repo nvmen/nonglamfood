@@ -3811,3 +3811,70 @@ color :transparent !important;
 .grid-items  .item{
 	border: 1px solid #ddd;
 }
+.icon-block-social .icon  {
+    width: 30px;
+    height: 30px;
+    line-height: 36px;
+	margin-bottom: 12px;
+   
+}
+.icon-block-social .icon > i {
+    font-size: 1.6em;
+}
+.facebook-color{
+  background-color:#3B5998;
+}
+.youtube-color{
+  background-color:#C8302A;
+}
+.twitter-color{
+  background-color:#fff;
+  color:#02AFF3 !important;
+}
+.google-plus-color{
+  background-color:#D84534;
+}
+.accent-color{
+color:#00b351 !important;
+}
+.address{
+color:#fff;
+}
+.address h3{
+color:#fff;
+}
+.pagination{
+	float:right;
+}
+.post-grid .pagination .prev  {}
+.post-grid .pagination .next {}
+
+.post-grid .pagination.lite .page-numbers {
+  background: rgba(220, 220, 220, 0.3) none repeat scroll 0 0;
+  border: 1px solid #00b351;
+  color: #00b351;
+  font-size: 14px;
+  line-height: normal;
+  padding: 3px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.post-grid .pagination .current{
+	border: 1px solid #00b351 !important;
+	font-weight: 400;
+}
+.post-grid .pagination.dark .page-numbers {
+  background: #666 none repeat scroll 0 0;
+  border: 1px solid #00b351;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: normal;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+.paginate >.current{
+  background: #FFF none repeat scroll 0 0 !important; 
+  border: 1px solid #00b351 !important;
+}
