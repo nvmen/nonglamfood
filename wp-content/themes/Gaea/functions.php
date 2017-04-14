@@ -16,6 +16,7 @@
   ----------------------------------------------------------------------------------- */
 define('IMIC_THEME_PATH', get_template_directory_uri());
 define('IMIC_FILEPATH', get_template_directory());
+
 /* -------------------------------------------------------------------------------------
   Load Translation Text Domain
   ----------------------------------------------------------------------------------- */
@@ -129,10 +130,13 @@ if (!function_exists('imic_pagination')) {
   ----------------------------------------------------------------------------------- */
 add_filter('post_thumbnail_html', 'imic_remove_thumbnail_dimensions', 10);
 add_filter('image_send_to_editor', 'imic_remove_thumbnail_dimensions', 10);
+remove_action( ‘woocommerce_before_add_to_cart_form’, ‘woocommerce_template_single_product_add_to_cart’, 10, 2);
 function imic_remove_thumbnail_dimensions($html) {
     $html = preg_replace('/(width|height)=\"\d*\"\s/', "", $html);
     return $html;
 }
+
+
 /* -------------------------------------------------------------------------------------
   Excerpt More and  length
   ----------------------------------------------------------------------------------- */

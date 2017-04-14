@@ -3878,3 +3878,19 @@ color:#fff;
   background: #FFF none repeat scroll 0 0 !important; 
   border: 1px solid #00b351 !important;
 }
+.wpcf7-form .wpcf7-text, .wpcf7-form .wpcf7-select, .wpcf7-form .wpcf7-textarea, .wpcf7-form .wpcf7-captchar, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-date {
+    height: 46px;
+}
+.wpcf7-form .wpcf7-textarea {
+    min-height: 178px;
+ 
+}
+.quantity{
+ display:none;
+}
+.single_add_to_cart_button  {
+display: none !important;
+}   
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.wc-tab >h2{
+display: none !important;
+}
